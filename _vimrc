@@ -1,14 +1,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => 20111115 added by dairg
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let $HOME = ""
-" set shell =c:\\Windows\\system32\\cmd.exe
-" set shell=c:\Windows\system32\cmd.exe
-set shell=cmd.exe
-
-" 20120814 added by dairg
 " 判断操作系统，使用不同的目录
 if has("win32")
+	let $HOME = ""
+	" set shell =c:\\Windows\\system32\\cmd.exe
+	" set shell=c:\Windows\system32\cmd.exe
+	set shell=cmd.exe
 else
 endif
 
@@ -39,10 +37,13 @@ set cindent
 " 对编码和字体的设置
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set encoding=utf-8
-set langmenu=ja.UTF-8
-language message ja.UTF-8
 set fileencoding=utf-8
 set guifont=NSimSun:h12:cGB2312
+if has("win32")
+	set langmenu=ja.UTF-8
+	language message ja.UTF-8
+else
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => tab mappings
@@ -113,7 +114,7 @@ else
 	map <silent> ,ee :e $HOME/.vimrc<cr>
 	"map <silent> <leader>ee :e $VIM/_vimrc<cr>
 	"When .vimrc is edited, reload it
-	autocmd! bufwritepost .vimrc source $HOME/.vimrc
+	"autocmd! bufwritepost .vimrc source $HOME/.vimrc
 endif
 
 
