@@ -195,10 +195,10 @@ let g:vimwiki_folding = 0
 " => 20111011 dairugang added
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let wiki_1 = {}
-let wiki_1.path = 'E:/01_moyan/00_moyan_SugarSync/13_myVimWiki/VimWiki_moyan/_wikiFile/'
-let wiki_1.path_html = 'E:/01_moyan/00_moyan_SugarSync/13_myVimWiki/VimWiki_moyan/'
+let wiki_1.path = 'E:/01_moyan/12_GitHubHome/makeiteasy.github.com/_wikiFile/'
+let wiki_1.path_html = 'E:/01_moyan/12_GitHubHome/makeiteasy.github.com/'
 let wiki_1.css_name = 'css/style.css'
-let wiki_1.template_path ='E:/01_moyan/00_moyan_SugarSync/13_myVimWiki/VimWiki_moyan/_template/'
+let wiki_1.template_path ='E:/01_moyan/12_GitHubHome/makeiteasy.github.com/_template/'
 let wiki_1.template_default = 'default'
 let wiki_1.template_ext = '.tpl'
 
