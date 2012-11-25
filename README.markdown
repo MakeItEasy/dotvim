@@ -18,3 +18,5 @@ Here is my vim settings.(vimrc)
 >	这个是rails编程的插件。help rails可以查询帮助
 * FuzzyFinder & l9
 >	快捷查找文件，就像eclipse中的<ctrl+shift+R>
+* NERD_tree
+>	显示项目目录
