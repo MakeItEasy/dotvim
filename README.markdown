@@ -12,26 +12,16 @@ Here is my vim settings.(vimrc)
 
 我的vim环境中的插件
 ---
-* snipMate
-
+* snipMate  
 	主要是定义一些语法，这样可以快速的书写一些常用的代码。比如可以定义for循环的语法，然后在写代码的时候，只需要输入for<tab>就可以完成for循环的代码。
-
-* rails
-
+* rails  
 	这个是rails编程的插件。help rails可以查询帮助
-
-* FuzzyFinder & l9
-
+* FuzzyFinder & l9  
 	快捷查找文件，就像eclipse中的<ctrl+shift+R>
-
-* NERD_tree
-
+* NERD_tree  
 	显示项目目录
-
-* MarkdownPreview
-
-	预览markdown文件
-
-	注意事项：
-		1. 该插件需要markdown命令，windows下可以安装python，并安装markdown_py。(自己看插件源码，很易懂)
-		2. 这个插件是参照以下链接：<http://blog.natesilva.com/post/5256838248/how-to-preview-a-markdown-document-in-vim>
+* MarkdownPreview  
+	预览markdown文件  
+	注意事项：  
+	  1. 该插件需要markdown命令，windows下可以安装python，并安装markdown_py。(自己看插件源码，很易懂)  
+	  2. 这个插件是参照以下链接：<http://blog.natesilva.com/post/5256838248/how-to-preview-a-markdown-document-in-vim>
