@@ -131,6 +131,7 @@ map <C-P> "*p
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F3> :FufCoverageFile!<CR>
+nnoremap <silent> <F5> :FufBuffer!<CR>
 nnoremap <silent> <F4> :NERDTree<CR>
 
 let g:surround_61 = "<%= \r %>"
@@ -166,6 +167,9 @@ else
 	"autocmd! bufwritepost .vimrc source $HOME/.vimrc
 endif
 
+let g:rubycomplete_buffer_loading = 1
+let g:rubycomplete_classes_in_global = 1
+let g:rubycomplete_rails = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => 20110607 added by dairg start
