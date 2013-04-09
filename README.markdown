@@ -27,4 +27,8 @@ Here is my vim settings.(vimrc)
 	  1. 该插件需要markdown命令，windows下可以安装python，并安装markdown_py。(自己看插件源码，很易懂)  
 	  2. 这个插件是参照以下链接：<http://blog.natesilva.com/post/5256838248/how-to-preview-a-markdown-document-in-vim>
 * vim-fugitive  
-    在vim中使用git命令的插件。help fugitive可以查询帮助
+    在vim中使用git命令的插件。help fugitive可以查询帮助。  
+	安装：在bundle目录执行  `git clone git://github.com/tpope/vim-fugitive.git`
+* vim-powerline  
+    在vim的状态栏插件。help powerline可以查询帮助。  
+	安装：在bundle目录执行  `git clone git://github.com/Lokaltog/vim-powerline.git`

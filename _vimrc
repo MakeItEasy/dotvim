@@ -54,7 +54,8 @@ set sw=4
 set ts=4
 set dy=lastline
 set backspace=indent,eol,start
-colo evening
+"colo evening
+colo slate
 sy on
 set go=
 set nobackup
@@ -283,3 +284,15 @@ call pathogen#infect()
 syntax on
 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20130409 dairugang
+" 安装powerline插件,一个状态栏显示信息插件
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"powerline{
+set guifont=PowerlineSymbols\ for\ Powerline
+set nocompatible
+set t_Co=256
+" Always show the statusline
+set laststatus=2
+let g:Powerline_symbols = 'fancy'
+"}
