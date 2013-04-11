@@ -297,7 +297,7 @@ syntax on
 " 安装powerline插件,一个状态栏显示信息插件
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "powerline{
-set guifont=PowerlineSymbols\ for\ Powerline
+"set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
 set t_Co=256
 " Always show the statusline
