@@ -311,3 +311,4 @@ let g:Powerline_symbols = 'fancy'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " highlight Pmenu guifg=#HEXCODE guibg=#HEXCODE gui=DECORATION ctermfg=COLOR  ctermbg=COLOR cterm=DECORATION
 highlight Pmenu ctermfg=white
+highlight PmenuSel ctermfg=yellow
