@@ -304,3 +304,10 @@ set t_Co=256
 set laststatus=2
 let g:Powerline_symbols = 'fancy'
 "}
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20131107 dairugang
+" setting the fuzzyfinder search window frontground color: white
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" highlight Pmenu guifg=#HEXCODE guibg=#HEXCODE gui=DECORATION ctermfg=COLOR  ctermbg=COLOR cterm=DECORATION
+highlight Pmenu ctermfg=white
