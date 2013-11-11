@@ -1,0 +1,11 @@
+ruby-debugger	doc/ruby_debugger.txt	/*ruby-debugger*
+ruby-debugger-about	doc/ruby_debugger.txt	/*ruby-debugger-about*
+ruby-debugger-bugs	doc/ruby_debugger.txt	/*ruby-debugger-bugs*
+ruby-debugger-details	doc/ruby_debugger.txt	/*ruby-debugger-details*
+ruby-debugger-installation	doc/ruby_debugger.txt	/*ruby-debugger-installation*
+ruby-debugger-introduction	doc/ruby_debugger.txt	/*ruby-debugger-introduction*
+ruby-debugger-issues	doc/ruby_debugger.txt	/*ruby-debugger-issues*
+ruby-debugger-plugin-author	doc/ruby_debugger.txt	/*ruby-debugger-plugin-author*
+ruby-debugger-quickstart	doc/ruby_debugger.txt	/*ruby-debugger-quickstart*
+ruby-debugger-tests	doc/ruby_debugger.txt	/*ruby-debugger-tests*
+ruby_debugger.txt	doc/ruby_debugger.txt	/*ruby_debugger.txt*

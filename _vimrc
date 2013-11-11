@@ -312,3 +312,10 @@ let g:Powerline_symbols = 'fancy'
 " highlight Pmenu guifg=#HEXCODE guibg=#HEXCODE gui=DECORATION ctermfg=COLOR  ctermbg=COLOR cterm=DECORATION
 highlight Pmenu ctermfg=white
 highlight PmenuSel ctermfg=yellow
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20131111 dairugang
+" vim-ruby-debugger 関連設定
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ruby_debugger_debug_mode = 1
+let g:ruby_debugger_progname = 'vim'
