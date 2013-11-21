@@ -319,3 +319,26 @@ highlight PmenuSel ctermfg=yellow
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ruby_debugger_debug_mode = 1
 let g:ruby_debugger_progname = 'vim'
+
+"let g:ruby_debugger_default_script = 'rails runner script/upload_html.rb'
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20131121 dairugang
+" my folding settings
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" use the indent folding setting
+" set foldmethod=indent   "fold based on indent
+" set foldnestmax=10       "deepest fold is 10 levels
+" set nofoldenable        "dont fold by default
+" set foldlevel=1         "this is just what i use
+
+" use the syntax folding setting
+" answer from: http://stackoverflow.com/questions/7594918/automatic-ruby-folding-in-vim
+function! RubyMethodFold(line)
+  let line_is_method_or_end = synIDattr(synID(a:line,1,0), 'name') == 'rubyMethodBlock'
+  let line_is_def = getline(a:line) =~ '\s*def '
+  return line_is_method_or_end || line_is_def
+endfunction
+set foldmethod=syntax
+set foldexpr=RubyMethodFold(v:lnum)
+set nofoldenable
