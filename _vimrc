@@ -342,3 +342,9 @@ endfunction
 set foldmethod=syntax
 set foldexpr=RubyMethodFold(v:lnum)
 set nofoldenable
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""                                                                    
+" => 20131122 dairugang                                                                                                                                                 
+" make the html.erb file to use html snippet                                                                                                                            
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""                                                                    
+autocmd BufNewFile,BufRead *.html.erb set filetype=html.eruby
