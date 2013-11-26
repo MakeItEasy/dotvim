@@ -296,14 +296,17 @@ syntax on
 " => 20130409 dairugang
 " 安装powerline插件,一个状态栏显示信息插件
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"powerline{
-"set guifont=PowerlineSymbols\ for\ Powerline
+" powerline{
+" set guifont=PowerlineSymbols\ for\ Powerline
 set nocompatible
 set t_Co=256
 " Always show the statusline
 set laststatus=2
-let g:Powerline_symbols = 'fancy'
-"}
+" let g:Powerline_symbols = 'fancy'                                                                                                                                  
+" let g:Powerline_symbols = 'unicode'                                                                                                                                
+let g:Powerline_symbols = 'compatible'                                                                                                                              
+let g:Powerline_stl_path_style = 'full' 
+" }
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => 20131107 dairugang
