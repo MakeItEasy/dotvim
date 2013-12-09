@@ -403,3 +403,11 @@ endfunc
 
 map <C-m> :call MoveToNextTab()<CR><C-w>H
 map <C-n> :call MoveToPrevTab()<CR><C-w>H
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20131209 dairugang
+" make the file to indent by 2 spaces
+" vim-ruby(https://github.com/vim-ruby/vim-ruby)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2
