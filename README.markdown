@@ -6,7 +6,9 @@ Here is my vim settings.(vimrc)
 `git clone url`
 2. 如果是linux的话，那么确认vim中scriptnames中vimrc的路径(如果让所有用户共享的话，把autoload，bundle等目录那么放到/etc/vim/下面)
 3. 在读取vimrc的路径中，建立一个link到clone下来的_vimrc文件
-`ln -s ...`
+`ln -s ...`  
+`ln -s dotvim/_vimrc ~/.vimrc`  
+`ln -s dotvim/autoload vim/vimfiles/autoload`  
 4. 如果时windows的话，那么直接拷贝clone下来的_vimrc文件到相应的目录（我的默认路径就是vim的根目录）
 5. 拷贝autoload，bundle，c-support目录到vim/vimfiles目录中，其中autoload是已经存在的目录。
 6. 生成帮助文档的话，用 `helptags /etc/vim/plugin/doc` 。(默认clone下来的已经生成过help文档)
