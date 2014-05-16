@@ -419,6 +419,6 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 " 参照:http://unix.stackexchange.com/questions/65401/changing-color-of-tabs-titles-in-vim-color-files
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 :hi TabLineFill ctermfg=LightGreen
-:hi TabLine ctermfg=DarkGreen 
+:hi TabLine ctermfg=Blue ctermbg=LightGreen
 :hi TabLineSel ctermfg=Red ctermbg=Yellow
 :hi Title ctermfg=LightBlue ctermbg=Magenta
