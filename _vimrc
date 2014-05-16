@@ -140,7 +140,8 @@ map <C-P> "*p
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <silent> <F8> :TlistToggle<CR>
 nnoremap <silent> <F3> :FufCoverageFile!<CR>
-nnoremap <silent> <F5> :FufBuffer!<CR>
+nnoremap <silent> <F6> :FufBuffer!<CR>
+nnoremap <silent> <F5> :FufRenewCache!<CR>
 nnoremap <silent> <F4> :NERDTree<CR>
 
 let g:surround_61 = "<%= \r %>"
