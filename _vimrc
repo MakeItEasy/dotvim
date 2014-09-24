@@ -145,6 +145,7 @@ nnoremap <silent> <F5> :FufRenewCache!<CR>
 nnoremap <silent> <F4> :NERDTree<CR>
 
 let g:surround_61 = "<%= \r %>"
+let g:surround_45 = "<% \r -%>"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => 20110607 added by dairg start
