@@ -54,8 +54,8 @@ set sw=4
 set ts=4
 set dy=lastline
 set backspace=indent,eol,start
-colo evening
-"colo slate
+"colo evening
+colo slate
 sy on
 set go=
 set nobackup
