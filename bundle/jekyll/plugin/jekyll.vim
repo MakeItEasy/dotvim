@@ -150,7 +150,9 @@ function! s:create_post(cmd, ...)
   else
     let &ft = g:jekyll_post_filetype
 
-    let date = strftime('%Y-%m-%d %T %z')
+    " 20141019 dairg 去掉最后的时区信息
+    " let date = strftime('%Y-%m-%d %T %z')
+    let date = strftime('%Y-%m-%d %T')
     silent! %s/JEKYLL_TITLE/\=s:post_title(title)/g
     silent! %s/JEKYLL_DATE/\=date/g
   endif
