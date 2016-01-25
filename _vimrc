@@ -424,3 +424,10 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 :hi TabLine ctermfg=Black ctermbg=LightGreen
 :hi TabLineSel ctermfg=Red ctermbg=Yellow
 :hi Title ctermfg=LightBlue ctermbg=Magenta
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => 20160125 dairugang
+" 设置粘贴模式的快捷键
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"set clipboard=unnamed
+set pastetoggle=<F9>
